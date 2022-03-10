@@ -1,0 +1,27 @@
+
+#map { position:absolute; top:270px; bottom:0; width:50%; height:500px;}
+#error{
+    font-family: monospace;
+    font-weight: bolder;
+    color:red;
+}
+.loader{
+    border: 7px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 7px solid rgb(99, 99, 99);
+    border-bottom: 7px solid rgb(99, 99, 99);
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
